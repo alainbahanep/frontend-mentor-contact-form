@@ -78,31 +78,31 @@ Example:
   <span class="error">Please enter a valid email address</span>
 </div>
 ```
-Continued development
+### Continued development
 
 In future projects, I want to:
-Improve my JavaScript validation logic to make it more reusable and scalable
-Go deeper into accessibility (ARIA roles, screen reader behavior)
-Achieve more pixel-perfect designs
-Learn how to connect forms to a backend
+- Improve my JavaScript validation logic to make it more reusable and scalable
+- Go deeper into accessibility (ARIA roles, screen reader behavior)
+- Achieve more pixel-perfect designs
+- Learn how to connect forms to a backend
 
-Useful resources
+### Useful resources
 
-https://developer.mozilla.org/⁠�
-https://css-tricks.com/⁠�
+- https://developer.mozilla.org/⁠�
+- https://css-tricks.com/⁠�
 
-AI Collaboration
+### AI Collaboration
 
-I used ChatGPT during this project
-Helped with structure, debugging, and validation logic
-Good for guidance and explanations
-Required careful review to fully understand solutions
+- I used ChatGPT during this project
+- Helped with structure, debugging, and validation logic
+- Good for guidance and explanations
+- Required careful review to fully understand solutions
 
-Author
+### Author
 
-Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep⁠�
-Twitter: https://x.com/alainbaha⁠�
+- Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep⁠�
+- Twitter: https://x.com/alainbaha⁠�
 
-Acknowledgments
+### Acknowledgments
 
 Special thanks to my mentor Salomon Mwilo and FreeDev group mates for guidance and support during this project.
