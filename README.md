@@ -1,7 +1,3 @@
-You’re very close — the problem is mostly Markdown structure (headings + lists + code block not closed).
-
-Here is your corrected version (structure only, same words):
-
 # Frontend Mentor - Contact form solution
 
 🔗 Challenge: https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj
@@ -80,47 +76,47 @@ Example:
   <label for="email">Email Address *</label>
   <input type="email" id="email" required>
   <span class="error">Please enter a valid email address</span>
-</div>
+</div>```
 
 
-Continued development
+## Continued development
 
-In future projects, I want to:
+- In future projects, I want to:
 
-Improve my JavaScript validation logic to make it more reusable and scalable
+- Improve my JavaScript validation logic to make it more reusable and scalable
 
-Go deeper into accessibility (ARIA roles, screen reader behavior)
+- Go deeper into accessibility (ARIA roles, screen reader behavior)
 
-Achieve more pixel-perfect designs
+- Achieve more pixel-perfect designs
 
-Learn how to connect forms to a backend
-
-
-Useful resources
-
-https://developer.mozilla.org/
-
-https://css-tricks.com/
+- Learn how to connect forms to a backend
 
 
-AI Collaboration
+## Useful resources
 
-I used ChatGPT during this project
+- https://developer.mozilla.org/
 
-Helped with structure, debugging, and validation logic
-
-Good for guidance and explanations
-
-Required careful review to fully understand solutions
+- https://css-tricks.com/
 
 
-Author
+## AI Collaboration
 
-Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep
+- I used ChatGPT during this project
 
-Twitter: https://x.com/alainbaha
+- Helped with structure, debugging, and validation logic
+
+- Good for guidance and explanations
+
+- Required careful review to fully understand solutions
 
 
-Acknowledgments
+## Author
 
-Special thanks to my mentor Salomon Mwilo and FreeDev group mates for guidance and support during this project.
+- Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep
+
+- Twitter: https://x.com/alainbaha
+
+
+## Acknowledgments
+
+Special thanks to my mentor **Salomon Mwilo** and **FreeDev group mates** for guidance and support during this project.
