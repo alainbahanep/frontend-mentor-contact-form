@@ -44,8 +44,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/alainbahanep/frontend-mentor-contact-form  
-- Live Site URL: https://alainbahanep.github.io/frontend-mentor-contact-form  
+- Solution URL: [View Repository](https://github.com/FreeDev-Group/frontend-mentor-contact-form.git)
+- Live Site URL: [View Live Site](https://freedev-group.github.io/Social-Links-Profile-Alain/)
 
 
 ## My process
@@ -100,8 +100,9 @@ In future projects, I want to:
 
 ### Author
 
-- Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep⁠�
-- Twitter: https://x.com/alainbaha⁠�
+- **Alan Bahane**  
+- Frontend Mentor - [@alainbahanep](https://www.frontendmentor.io/profile/alainbahanep)  
+- Twitter - [@alainbaha](https://x.com/alainbaha)
 
 ### Acknowledgments
 
