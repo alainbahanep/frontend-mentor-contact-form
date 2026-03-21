@@ -76,47 +76,33 @@ Example:
   <label for="email">Email Address *</label>
   <input type="email" id="email" required>
   <span class="error">Please enter a valid email address</span>
-</div>```
+</div>
+```
+Continued development
 
+In future projects, I want to:
+Improve my JavaScript validation logic to make it more reusable and scalable
+Go deeper into accessibility (ARIA roles, screen reader behavior)
+Achieve more pixel-perfect designs
+Learn how to connect forms to a backend
 
-## Continued development
+Useful resources
 
-- In future projects, I want to:
+https://developer.mozilla.org/⁠�
+https://css-tricks.com/⁠�
 
-- Improve my JavaScript validation logic to make it more reusable and scalable
+AI Collaboration
 
-- Go deeper into accessibility (ARIA roles, screen reader behavior)
+I used ChatGPT during this project
+Helped with structure, debugging, and validation logic
+Good for guidance and explanations
+Required careful review to fully understand solutions
 
-- Achieve more pixel-perfect designs
+Author
 
-- Learn how to connect forms to a backend
+Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep⁠�
+Twitter: https://x.com/alainbaha⁠�
 
+Acknowledgments
 
-## Useful resources
-
-- https://developer.mozilla.org/
-
-- https://css-tricks.com/
-
-
-## AI Collaboration
-
-- I used ChatGPT during this project
-
-- Helped with structure, debugging, and validation logic
-
-- Good for guidance and explanations
-
-- Required careful review to fully understand solutions
-
-
-## Author
-
-- Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep
-
-- Twitter: https://x.com/alainbaha
-
-
-## Acknowledgments
-
-Special thanks to my mentor **Salomon Mwilo** and **FreeDev group mates** for guidance and support during this project.
+Special thanks to my mentor Salomon Mwilo and FreeDev group mates for guidance and support during this project.
