@@ -45,7 +45,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [View Repository](https://github.com/FreeDev-Group/frontend-mentor-contact-form.git)
-- Live Site URL: [View Live Site](https://freedev-group.github.io/Social-Links-Profile-Alain/)
+- Live Site URL: [View Live Site](https://freedev-group.github.io/frontend-mentor-contact-form/)
 
 
 ## My process
@@ -88,8 +88,8 @@ In future projects, I want to:
 
 ### Useful resources
 
-- https://developer.mozilla.org/⁠�
-- https://css-tricks.com/⁠�
+- https://developer.mozilla.org
+- https://css-tricks.com
 
 ### AI Collaboration
 
@@ -106,4 +106,4 @@ In future projects, I want to:
 
 ### Acknowledgments
 
-Special thanks to my mentor Salomon Mwilo and FreeDev group mates for guidance and support during this project.
+Special thanks to my mentor **Salomon Mwilo** and **FreeDev group mates** for guidance and support during this project.
