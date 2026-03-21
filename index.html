@@ -2,51 +2,153 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Contact form</title>
 </head>
 <body>
 
-  Contact Us
+  <main class="container">
+    <form class="form" aria-labelledby="form-title">
 
-  First Name
-  This field is required
+      <h1 id="form-title">Contact Us</h1>
 
-  Last Name
-  This field is required
+      <!-- Name row -->
+      <div class="name-row">
+        <div class="form-group">
+          <label for="first-name">First Name *</label>
+          <input type="text" id="first-name" required>
+          <span class="error">This field is required</span>
+        </div>
 
-  Email Address
-  Please enter a valid email address
-  This field is required
+        <div class="form-group">
+          <label for="last-name">Last Name *</label>
+          <input type="text" id="last-name" required>
+          <span class="error">This field is required</span>
+        </div>
+      </div>
 
-  Query Type
-  General Enquiry
-  Support Request
-  Please select a query type
+      <!-- Email -->
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" required>
+        <span class="error">
+          Please enter a valid email address<br>
+          This field is required
+        </span>
+      </div>
 
-  Message
-  This field is required
+      <!-- Query Type -->
+      <fieldset class="form-group">
+        <legend>Query Type *</legend>
 
-  I consent to being contacted by the team
-  To submit this form, please consent to being contacted
+        <div class="radio-group">
+          <label class="radio-option">
+            <input type="radio" name="query" required>
+            <span>General Enquiry</span>
+          </label>
 
-  Submit
+          <label class="radio-option">
+            <input type="radio" name="query">
+            <span>Support Request</span>
+          </label>
+        </div>
 
-  Message Sent!
-  Thanks for completing the form. We'll be in touch soon!
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+        <span class="error">Please select a query type</span>
+      </fieldset>
+
+      <!-- Message -->
+      <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea id="message" required></textarea>
+        <span class="error">This field is required</span>
+      </div>
+
+      <!-- Consent -->
+      <div class="form-group checkbox">
+        <label>
+          <input type="checkbox" required>
+          I consent to being contacted by the team *
+        </label>
+        <span class="error">
+          To submit this form, please consent to being contacted
+        </span>
+      </div>
+
+      <button type="submit">Submit</button>
+
+      <div class="success" role="status" aria-live="polite">
+        <strong>Message Sent!</strong><br>
+        Thanks for completing the form. We'll be in touch soon!
+      </div>
+
+    </form>
+  </main>
+
+  <footer class="attribution">
+    Challenge by 
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">
+      Frontend Mentor
+    </a>. 
+    Coded by 
+    <a href="#">Alain Bahane</a>.
+  </footer>
+
+  <script>
+    const form = document.querySelector(".form");
+    const successMessage = document.querySelector(".success");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      let isValid = true;
+
+      // Inputs + textarea
+      const fields = form.querySelectorAll("input[required], textarea[required]");
+
+      fields.forEach(field => {
+        const group = field.closest(".form-group");
+
+        if (field.type === "checkbox") {
+          if (!field.checked) {
+            group.classList.add("error-active");
+            isValid = false;
+          } else {
+            group.classList.remove("error-active");
+          }
+        } else if (!field.value.trim()) {
+          group.classList.add("error-active");
+          isValid = false;
+        } else {
+          group.classList.remove("error-active");
+        }
+      });
+
+      // Radio validation
+      const radios = form.querySelectorAll('input[name="query"]');
+      const fieldset = radios[0].closest("fieldset");
+
+      const checked = [...radios].some(r => r.checked);
+
+      if (!checked) {
+        fieldset.classList.add("error-active");
+        isValid = false;
+      } else {
+        fieldset.classList.remove("error-active");
+      }
+
+      // Success handling
+      if (isValid) {
+        successMessage.style.display = "block";
+        form.reset();
+      } else {
+        successMessage.style.display = "none";
+      }
+    });
+  </script>
+
 </body>
 </html>
