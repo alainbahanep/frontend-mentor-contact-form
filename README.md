@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View Repository](https://github.com/FreeDev-Group/frontend-mentor-contact-form.git)
+- Solution URL: [View Repository](https://github.com/FreeDev-Group/frontend-mentor-contact-form-Alain.git)
 - Live Site URL: [View Live Site](https://freedev-group.github.io/frontend-mentor-contact-form/)
 
 
