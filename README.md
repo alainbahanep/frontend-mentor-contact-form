@@ -79,39 +79,46 @@ Example:
 </div>
 
 
-### Continued development
+- Continued development
 
 In future projects, I want to:
 
-- Improve my JavaScript validation logic to make it more reusable and scalable  
-- Go deeper into accessibility (ARIA roles, screen reader behavior)  
-- Achieve more pixel-perfect designs based on UI specifications  
-- Learn how to connect forms to a backend for real-world use  
+- Improve my JavaScript validation logic to make it more reusable and scalable
+
+- Go deeper into accessibility (ARIA roles, screen reader behavior)
+
+- Achieve more pixel-perfect designs
+
+- Learn how to connect forms to a backend
 
 
-### Useful resources
+- Useful resources
 
-- https://developer.mozilla.org/ — Helped me understand form validation and accessibility  
-- https://css-tricks.com/ — Helped me improve layout and responsive design  
+https://developer.mozilla.org/
 
-
-### AI Collaboration
-
-I used ChatGPT during this project.
-
-- I used it to structure my HTML and CSS and to debug issues  
-- It helped me understand validation logic and responsive layout  
-- What worked well: clear explanations and step-by-step guidance  
-- What didn’t work well: I needed to review and understand the solutions instead of copying them directly  
+https://css-tricks.com/
 
 
-## Author
+- AI Collaboration
 
-- **Alain Bahane**
-- Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep  
-- Twitter: https://x.com/alainbaha  
+- I used ChatGPT during this project.
+
+- Helped with structure, debugging, and validation logic
+
+- Good for guidance and explanations
+
+- Required careful review to fully understand solutions
 
 
-## Acknowledgments
 
-Special thanks to my mentor **Salomon Mwilo** and **FreeDev Group members** for guidance and support during this project.
+- Author
+
+- Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep
+
+- Twitter: https://x.com/alainbaha
+
+
+- Acknowledgments
+
+Special thanks to my mentor **Salomon Mwilo** and **FreeDev group mates** for guidance and support
+during this project.
