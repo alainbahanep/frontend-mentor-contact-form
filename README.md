@@ -1,3 +1,7 @@
+You’re very close — the problem is mostly Markdown structure (headings + lists + code block not closed).
+
+Here is your corrected version (structure only, same words):
+
 # Frontend Mentor - Contact form solution
 
 🔗 Challenge: https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj
@@ -29,8 +33,8 @@ Users should be able to:
 
 - Complete the form and see a success toast message upon successful submission  
 - Receive form validation messages if:  
-- A required field has been missed  
-- The email address is not formatted correctly  
+  - A required field has been missed  
+  - The email address is not formatted correctly  
 - Complete the form only using their keyboard  
 - Have inputs, error messages, and the success message announced on their screen reader  
 - View the optimal layout for the interface depending on their device's screen size  
@@ -79,46 +83,44 @@ Example:
 </div>
 
 
-- Continued development
+Continued development
 
 In future projects, I want to:
 
-- Improve my JavaScript validation logic to make it more reusable and scalable
+Improve my JavaScript validation logic to make it more reusable and scalable
 
-- Go deeper into accessibility (ARIA roles, screen reader behavior)
+Go deeper into accessibility (ARIA roles, screen reader behavior)
 
-- Achieve more pixel-perfect designs
+Achieve more pixel-perfect designs
 
-- Learn how to connect forms to a backend
+Learn how to connect forms to a backend
 
 
-- Useful resources
+Useful resources
 
 https://developer.mozilla.org/
 
 https://css-tricks.com/
 
 
-- AI Collaboration
+AI Collaboration
 
-- I used ChatGPT during this project.
+I used ChatGPT during this project
 
-- Helped with structure, debugging, and validation logic
+Helped with structure, debugging, and validation logic
 
-- Good for guidance and explanations
+Good for guidance and explanations
 
-- Required careful review to fully understand solutions
-
-
-
-- Author
-
-- Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep
-
-- Twitter: https://x.com/alainbaha
+Required careful review to fully understand solutions
 
 
-- Acknowledgments
+Author
 
-Special thanks to my mentor **Salomon Mwilo** and **FreeDev group mates** for guidance and support
-during this project.
+Frontend Mentor: https://www.frontendmentor.io/profile/alainbahanep
+
+Twitter: https://x.com/alainbaha
+
+
+Acknowledgments
+
+Special thanks to my mentor Salomon Mwilo and FreeDev group mates for guidance and support during this project.
